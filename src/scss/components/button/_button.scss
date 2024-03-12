@@ -1,0 +1,14 @@
+.btn {
+    min-width: 213px;
+    display: block;
+    height: 64px;
+    border: none;
+    border-radius: 150px;
+    padding: 20px 40px;
+    background: $primary;
+    @include button--font;
+    cursor: pointer;
+    &_pl72 {
+        padding-left: 72px;
+    }
+}

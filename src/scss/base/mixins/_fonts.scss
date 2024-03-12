@@ -1,0 +1,133 @@
+@mixin block--title {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 110%;
+    text-transform: uppercase;
+    text-align: left;
+    color: $black;
+    span {
+        color: $primary;
+        text-shadow: 
+        -0   -1px 0   rgba( 0, 0, 0, 0.25 ),
+        0   -1px 0   rgba( 0, 0, 0, 0.25 ),
+       -0    1px 0   rgba( 0, 0, 0, 0.25 ),
+        0    1px 0   rgba( 0, 0, 0, 0.25 ),
+       -1px -0   0   rgba( 0, 0, 0, 0.25 ),
+        1px -0   0   rgba( 0, 0, 0, 0.25 ),
+       -1px  0   0   rgba( 0, 0, 0, 0.25 ),
+        1px  0   0   rgba( 0, 0, 0, 0.25 ),
+       -1px -1px 0   rgba( 0, 0, 0, 0.25 ),
+        1px -1px 0   rgba( 0, 0, 0, 0.25 ),
+       -1px  1px 0   rgba( 0, 0, 0, 0.25 ),
+        1px  1px 0   rgba( 0, 0, 0, 0.25 ),
+       -1px -1px 0   rgba( 0, 0, 0, 0.25 ),
+        1px -1px 0   rgba( 0, 0, 0, 0.25 ),
+       -1px  1px 0   rgba( 0, 0, 0, 0.25 ),
+        1px  1px 0   rgba( 0, 0, 0, 0.25 );
+    }
+}
+
+@mixin block--descr {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: $black;
+}
+
+@mixin button--font {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-transform: uppercase;
+    text-align: center;
+    color: $black;
+}
+
+@mixin button--shop {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 118%;
+    text-transform: uppercase;
+    color: $white;
+}
+
+@mixin card--fonts {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: $black;
+}
+
+@mixin cart--fonts {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    text-transform: uppercase;
+    text-align: center;
+    color: $black;
+}
+
+@mixin menu--fonts {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 118%;
+    text-transform: uppercase;
+    color: $black;
+}
+
+@mixin main-title {
+    font-family: "RubikBubbles";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 110%;
+    text-transform: uppercase;
+    text-align: center;
+    color: $black;
+}
+
+@mixin main-title-s {
+    font-family: "RubikBubbles";
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 200%;
+    text-transform: uppercase;
+    text-align: center;
+    color: $black;;
+}
+
+@mixin featured-item_title-font {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    text-transform: uppercase;
+    text-align: center;
+    color: $black;
+}
+
+@mixin product-title {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+    text-transform: uppercase;
+    text-align: center;
+    color: $black;
+}
+
+@mixin footer-descr {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 133%;
+    text-align: center;
+    color: $black;
+}

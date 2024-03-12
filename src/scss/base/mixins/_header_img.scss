@@ -1,0 +1,46 @@
+.header {
+    // &::after, &::before {
+    //     content: '';
+    //     position: absolute;
+    //     z-index: 10;
+    // }
+    // &::after {
+    //     background-image: url("../img/header/pepe.png");
+    //     background-repeat: no-repeat;
+    //     width: 388px;
+    //     height: 485px;
+    //     bottom: 0;
+    //     left: 0;
+    // }
+    // &::before {
+    //     background-image: url("../img/header/pond.png");
+    //     background-repeat: no-repeat;
+    //     width: 511px;
+    //     height: 523px;
+    //     bottom: -35px;
+    //     right: 0;
+    // }
+
+    // &__top {
+    //     &::after, &::before {
+    //         content: '';
+    //         position: absolute;
+    //         z-index: 10;
+    //     }
+    //     &::after {
+    //         background-image: url("../img/header/tshirt.png");
+    //         background-repeat: no-repeat;
+    //         width: 285px;
+    //         height: 276px;
+    //         top: 85px;
+    //         left: 130px;
+    //     }
+    //     &::before {
+    //         background-image: url("../img/header/cap.png");
+    //         background-repeat: no-repeat;
+    //         width: 253px;
+    //         height: 185px;
+    //         top: 140px;
+    //         right: 95px;
+    //     }
+}

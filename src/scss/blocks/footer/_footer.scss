@@ -1,0 +1,108 @@
+.footer {
+    max-width: 1600px;
+    margin: 0 auto; 
+    background-color: $primary;
+    padding-top: 68px;
+    padding-bottom: 30px;
+    min-height: 618px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 634px minmax(320px, 856px);
+        grid-template-rows: 505px 64px;
+        grid-auto-rows: auto;
+        gap: 10px;
+        justify-content: center;
+        border-radius: 50px;
+        padding: 20px;
+        margin: 30px;
+        background-color: $white;
+    }
+    &__cope {
+        background: url("../img/footer/footer.jpg") no-repeat center center/cover;
+        overflow: hidden;
+        border-radius: 30px;
+        width: 100%;
+        height: 504px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    &__title {
+        // width: 603px;
+        margin-bottom: 20px;
+        padding-top: 70px;
+        width:auto;
+        max-width:100%;
+    }
+    &__descr {
+        width: 361px;
+        @include footer-descr;
+    }
+    &__support {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        border-radius: 30px;
+        width: 100%;
+        height: 504px;
+        background: $surface;
+        padding: 10px;
+        &-menu {
+            display: flex;
+            gap: 8px;
+            border-radius: 20px;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 0;
+            max-width: 100%;
+            background: $white;
+            padding: 10px;
+            &__item {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 12px;
+                padding: 10px;
+                width: 198px;
+                height: 122px;
+                background: $surface;
+                @include cart--fonts;
+            }
+        }
+        &-description {
+            border-radius: 20px;
+            max-width: 100%;
+            height: 335px;
+            background: $white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            &__info {
+                width: 310px;    
+                @include cart--fonts;
+                margin-bottom: 24px;
+            }
+        }
+    }
+    &__info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+        grid-column: 1 / -1;
+        border-radius: 30px;
+        padding: 20px 40px;
+        min-height: 64px;
+        background: $primary;
+        padding: 20px;
+        @include cart--fonts;
+        &-terms {
+            margin-left: auto;
+        }
+    }
+}

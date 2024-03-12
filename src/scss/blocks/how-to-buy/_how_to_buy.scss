@@ -1,0 +1,9 @@
+.how-to-buy {
+    margin-top: 68px;
+    min-height: 624px;
+    &__cards {
+        display: flex;
+        gap: 20px;
+        overflow: hidden;
+    } 
+}

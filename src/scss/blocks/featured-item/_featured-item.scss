@@ -1,0 +1,54 @@
+.featured-item {
+    max-width: 100%;
+    padding-top: 108px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: minmax(169px, 268px) 212px auto;
+        grid-auto-rows: auto;
+        margin-bottom: 28px;
+    }
+    &__title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include featured-item-title;
+    }
+    &__filter {
+        position: relative;
+        z-index: 5;
+        @include featured-item-title;
+        @include angle-down;
+    }
+    &__nav {
+        width: 124px;
+        height: 64px;
+        background-color: $white;
+        border-radius: 140px;
+        padding: 4px;
+        justify-self: end;
+        display: flex;
+        gap: 4px;
+        grid-column: -1;
+        &-left, &-right {
+            border-radius: 150px;
+            padding: 24px 28px;
+            width: 56px;
+            height: 56px;
+            background: $primary;
+            position: relative;
+        }
+        &-left {
+            @include angle-left;
+        }
+        &-right {
+            @include angle-right;
+        }
+    }
+    &__cards {
+        display: flex;
+        // justify-content: space-around;
+        // flex-wrap: nowrap;
+        overflow: hidden;
+        gap: 20px;
+    }
+}

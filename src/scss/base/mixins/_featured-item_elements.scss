@@ -1,0 +1,62 @@
+@mixin angle-down {
+    &::before {
+        content: '';
+        position: absolute;
+        z-index: 10;
+        background-image: url("../icons/svg/angle-down.svg");
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 24px;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 48px;
+    }
+}
+
+@mixin angle-left {
+    &::before {
+        content: '';
+        position: absolute;
+        z-index: 10;
+        background-image: url("../icons/svg/angle-left.svg");
+        background-repeat: no-repeat;
+        background-size: 32px 32px;
+        width: 32px;
+        height: 32px;
+        top: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        left: 50%;
+    }
+}
+
+@mixin angle-right {
+    &::before {
+        content: '';
+        position: absolute;
+        z-index: 10;
+        background-image: url("../icons/svg/angle-right.svg");
+        background-repeat: no-repeat;
+        background-size: 32px 32px;
+        width: 32px;
+        height: 32px;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+    }
+}
+
+@mixin shopping-bag {
+    &::before {
+        content: '';
+        position: absolute;
+        z-index: 10;
+        background-image: url("../icons/svg/shopping-bag.svg");
+        background-repeat: no-repeat;
+        background-size: 24px 24px;
+        width: 24px;
+        height: 24px;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+    }
+}

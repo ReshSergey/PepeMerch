@@ -1,0 +1,7 @@
+@mixin featured-item-title {
+    border-radius: 150px;
+    padding: 20px 30px;
+    height: 64px;
+    background: $white;
+    @include featured-item_title-font;
+}

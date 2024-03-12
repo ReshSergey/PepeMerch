@@ -1,0 +1,40 @@
+// Reset
+@import "base/reset/reset";
+// *{ border:1px solid red; box-sizing:border-box; }
+// body{width:100%; height:100%; overflow-x:hidden;}
+// Variables
+@import "base/var/colors";
+@import "base/fonts/fonts";
+
+// Mixins
+// @import "base/mixins/**/*";
+@import "base/mixins/fonts";
+// @import "base/mixins/header_img";
+@import "base/mixins/block_title";
+@import "base/mixins/featured-item_elements";
+@import "base/mixins/social";
+
+// Components
+@import "components/icons";
+@import "components/hamburger";
+@import "components/buttons";
+@import "components/card--product/card-product";
+@import "components/button/button";
+@import "components/card--guide/card_guide";
+
+// Blocks
+@import "blocks/container/container";
+@import "blocks/header/header";
+@import "blocks/main/main";
+@import "blocks/featured-item/featured-item";
+@import "blocks/about/about";
+@import "blocks/how-to-buy/how_to_buy";
+@import "blocks/token/token";
+@import "blocks/product/product";
+@import "blocks/footer/footer";
+
+// Media queries
+
+@import "breakpoint/1024";
+@import "breakpoint/768";
+@import "breakpoint/360";

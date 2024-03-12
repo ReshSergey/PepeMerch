@@ -1,0 +1,16 @@
+@mixin twitter {
+    &::after {
+        content: '';
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        background-image: url("../icons/svg/twitter.svg");
+        background-repeat: no-repeat;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 48px;
+    }
+}

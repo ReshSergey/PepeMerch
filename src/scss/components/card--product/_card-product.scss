@@ -1,0 +1,47 @@
+.card-product {
+    border-radius: 50px;
+    width: 500px;
+    max-height: 612px;
+    background: $white;  
+    overflow: hidden; 
+    &__img {
+        width:auto;
+        max-width:100%;
+        height: 444px;
+        object-fit: contain;
+    }
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 40px 40px;
+        grid-auto-rows: auto;
+        align-items: center;
+        margin: 68px 20px 20px 36px;
+        gap: 10px;
+    }
+    &__name {
+        @include card--fonts;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    &__price {
+        @include card--fonts; 
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        justify-self:left;
+        padding-bottom: 12px;
+    }
+    &__cart {
+        border-radius: 150px;
+        padding: 28px 40px;
+        width: 124px;
+        height: 80px;
+        background: $primary;
+        grid-column: 2 / -1;
+        grid-row: 1 / -1;
+        justify-self: end;
+        position: relative;
+        z-index: 5;
+        @include shopping-bag;
+    }
+}
