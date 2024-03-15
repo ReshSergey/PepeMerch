@@ -15,7 +15,7 @@
     }
     &__filter {
         position: relative;
-        z-index: 5;
+        z-index: 0;
         @include featured-item-title;
         @include angle-down;
     }

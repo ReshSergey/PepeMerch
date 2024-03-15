@@ -1,0 +1,10 @@
+.privacy {
+    width: 228px;
+    margin: 0 auto;
+    margin-top: 20px;
+    @include privacy-font;
+    a {
+        color: $primary;
+        text-decoration: none;
+    }
+}

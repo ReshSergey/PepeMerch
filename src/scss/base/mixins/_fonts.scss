@@ -131,3 +131,21 @@
     text-align: center;
     color: $black;
 }
+
+@mixin discount-fonts {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 133%;
+    text-transform: uppercase;
+    color: $black;
+}
+
+@mixin privacy-font {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+    color: $black;
+}

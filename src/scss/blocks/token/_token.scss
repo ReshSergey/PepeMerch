@@ -46,6 +46,8 @@
     }
     &__button {
         margin-top: 28px;
-        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

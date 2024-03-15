@@ -1,9 +1,10 @@
 .card-product {
     border-radius: 50px;
-    width: 500px;
-    max-height: 612px;
+    min-width: 500px;
+    height: 612px;
     background: $white;  
     overflow: hidden; 
+    
     &__img {
         width:auto;
         max-width:100%;
@@ -41,7 +42,7 @@
         grid-row: 1 / -1;
         justify-self: end;
         position: relative;
-        z-index: 5;
+        z-index: 0;
         @include shopping-bag;
     }
 }

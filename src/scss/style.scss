@@ -23,8 +23,11 @@
 @import "components/card--guide/card_guide";
 
 // Blocks
+@import "blocks/overlay/overlay";
 @import "blocks/container/container";
 @import "blocks/header/header";
+@import "blocks/cart/cart";
+@import "blocks/privacy/privacy";
 @import "blocks/main/main";
 @import "blocks/featured-item/featured-item";
 @import "blocks/about/about";

@@ -1,9 +1,10 @@
 .card-guide {
     border-radius: 50px;
     min-width: 370px;
-    height: 532px;
+    max-height: 532px;
     background: $white;
     padding: 12px;
+    padding-bottom: 54px;
     overflow: hidden;
     &_large {
         position: relative;

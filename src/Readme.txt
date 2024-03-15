@@ -11,3 +11,6 @@
     About,
     Token $PNDC,
     Token $PEPE
+
+
+5) В футере доделать картинку

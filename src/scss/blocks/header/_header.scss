@@ -1,5 +1,5 @@
 .header {
-    min-width: 1600px;
+    max-width: 1600px;
     margin: 0 auto;
     min-height: 900px;
     background-color: $primary;
@@ -95,6 +95,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        cursor: pointer;
     }
     &__wallet {
         border-radius: 150px;

@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: center;
     &__wrapper {
+        width: 100%;
         display: grid;
         grid-template-columns: 634px minmax(320px, 856px);
         grid-template-rows: 505px 64px;
